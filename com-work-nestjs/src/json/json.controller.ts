@@ -10,7 +10,6 @@ export class JsonController {
 
     @Post()
     sendXy(@Body() data: xyDto): {z : bigint} {
-        // console.log(res);
         return this.jsonSer.sendXy(data.x , data.y);
     }
 }

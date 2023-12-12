@@ -1,6 +1,5 @@
 
-function validate(inp , inpString, errList){
-   console.log(typeof inp);   
+function validate(inp , inpString, errList){ 
    if (typeof inp !== 'number'){
       errList.push(`${inpString} must be a number conforming to the specified constraints`); // this returns variable name
    }

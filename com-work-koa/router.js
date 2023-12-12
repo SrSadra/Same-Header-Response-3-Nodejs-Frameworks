@@ -1,8 +1,6 @@
 const  Router = require('@koa/router')
 const router = new Router();
 const {inputValidate} = require("./input.middleware")
-// const validate = require("koa-validate")
-// validate(router)
 
 
 
